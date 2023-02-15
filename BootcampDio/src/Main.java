@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -12,6 +13,9 @@ public class Main {
 		Curso nomeCurso = new Curso();
 		
 		Mentoria mentoriaJava = new Mentoria();
+		
+		Conteudo umCurso = new Curso();
+		System.out.println(umCurso + " teste Pai para filha");
 		
 		System.out.println(nomeCurso);
 		
